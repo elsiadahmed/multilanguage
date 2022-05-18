@@ -1,0 +1,30 @@
+nav img{
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+main{
+	text-align:center
+}
+#codes{
+	width:98%;
+	min-height:280px;
+	border-radius:14px;
+	padding: 10px;
+	border: 2px solid rgba(131,131,131);
+}
+#buttons{
+	display:flex;
+	justify-content:space-evenly;
+}
+#buttons button{
+	width:47%;
+	border-radius: 12px;
+}
+#remove{background: rgba(255,30,30);color:white;}
+#play{background: rgba(39,39,39);color:white;}
+#title-result{padding:10px;border-bottom:2px solid rgba(131,131,131);margin: 8px 0;font-weight: bold;}
+#result{max-width:100%;!important}
+.carousel-item img{object-fit: cover;}
+.carousel-item {max-height: 294px;}
